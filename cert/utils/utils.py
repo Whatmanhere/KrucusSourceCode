@@ -4,7 +4,7 @@ RBXPath = os.getenv("LOCALAPPDATA") + "\\Roblox\\logs"
 RENDER_VIEW_PATTERN = r"\[FLog::SurfaceController\] SurfaceController\[_:\d\]::initialize view\([A-F0-9]{16}\)"
 
 Version = "9.0"
-ExecName = "Savage"
+ExecName = "Krucus"
 InternalUI = "false"
 
 class Offsets:
