@@ -6,7 +6,7 @@ sandbox:initialize()
 
 bridge:register_callback("load_script", function(args)
     local current_script = bridge.module_holder.Value
-    current_script.Name = "Krucus"
+    current_script.Name = "Krucus/v1"
 
     local success, func = pcall(require, current_script)
 
