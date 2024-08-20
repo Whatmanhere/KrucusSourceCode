@@ -3,7 +3,7 @@ import os, ctypes
 import xxhash
 import zstandard as zstd
 
-dll = ctypes.CDLL("././bin/API.dll")
+dll = ctypes.CDLL("././bin/Krucus.dll")
 
 RBXCompile_t = dll.RBXCompile
 RBXCompile_t.argtypes = [ctypes.c_char_p, ctypes.c_char_p]
