@@ -204,6 +204,15 @@ function sandbox:initialize()
 		return cloned_environment.global
 	end
 
+	environment.global.printidentity = function(message)
+		local identity = 8
+		if message then
+			print(message, identity)
+		else
+			print("Current identity is 8")
+		end
+	end
+
 	environment.global.getrenv = function()
 		return environment.roblox
 	end
